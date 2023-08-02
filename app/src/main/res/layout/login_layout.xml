@@ -10,6 +10,7 @@
     tools:context=".LoginActivity">
 
     <ImageView
+        android:layout_marginTop="15dp"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_gravity="center_horizontal"
@@ -21,6 +22,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
         android:gravity="center"
+        android:fontFamily="@font/BungeeSpiceRegular"
         android:text="Vegan Food"
         android:textSize="50sp"
         android:textStyle="bold" />
@@ -36,6 +38,7 @@
         app:boxCornerRadiusBottomEnd="20dp"
         app:boxCornerRadiusBottomStart="20dp"
         app:boxCornerRadiusTopEnd="20dp"
+        app:startIconDrawable="@drawable/baseline_people"
         app:boxCornerRadiusTopStart="20dp"
         app:counterMaxLength="100">
 
@@ -57,6 +60,7 @@
         app:boxCornerRadiusBottomEnd="20dp"
         app:boxCornerRadiusBottomStart="20dp"
         app:boxCornerRadiusTopEnd="20dp"
+        app:startIconDrawable="@drawable/baseline_lock"
         app:boxCornerRadiusTopStart="20dp"
         app:counterMaxLength="100">
 
@@ -69,6 +73,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
@@ -76,21 +81,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_weight="0.5"
             android:layout_margin="15dp"
-            android:text="Entrar" />
+            android:layout_weight="0.5"
+            android:backgroundTint="#5ca853"
+            android:text="Entrar"
+            android:textColor="#000" />
 
         <Button
             android:layout_margin="15dp"
+            android:textColor="#000"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_weight="0.5"
+            android:backgroundTint="#5ca853"
             android:text="Sair"/>
 
     </LinearLayout>
-
-
-
 
 </LinearLayout>
